@@ -1,8 +1,7 @@
 import "./App.scss";
 import { Route, Routes } from "react-router-dom";
-import { navLinks } from './Constants/NavLinks';
 import BasicLayout from "./Layouts/BasicLayout/BasicLayout";
-import { createContext, useEffect, useState } from "react";
+import { createContext, useState } from "react";
 import Home from "./Pages/Home/Home";
 import Aboutus from "./Pages/About-Us/Aboutus";
 import Products from "./Pages/Products/Products";
@@ -41,7 +40,7 @@ function App() {
       <BasicLayout className="theLayout" >
         <Routes>
 
-        <Route path="/" exact element={<Home />} />
+        <Route path="/kk" exact element={<Home />} />
           <Route path="/aboutUs" exact element={<Aboutus/>} />
           <Route path='/products' exact element={<Products />} />
           <Route path='/contactUs' exact element={<ContactUs/>} />

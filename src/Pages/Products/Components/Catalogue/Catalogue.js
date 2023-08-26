@@ -1,7 +1,7 @@
 import React from "react";
 import catStyle from "./catStyle.module.scss";
 import ProductList from "../../../../Utils/ProductList";
-import { NavLink, Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Catalogue = () => {
   const navigate = useNavigate();

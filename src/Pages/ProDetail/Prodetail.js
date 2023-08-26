@@ -1,5 +1,4 @@
 import React from "react";
-import prodetail from "./proDetail.module.scss";
 import Tropical from "./Tropical/Tropical";
 import Otherpro from "./OtherProducts/Otherpro";
 import { useLocation } from "react-router-dom";
