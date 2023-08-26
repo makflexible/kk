@@ -40,7 +40,7 @@ function App() {
       <BasicLayout className="theLayout" >
         <Routes>
 
-        <Route path="/kk" exact element={<Home />} />
+        <Route path="/" exact element={<Home />} />
           <Route path="/aboutUs" exact element={<Aboutus/>} />
           <Route path='/products' exact element={<Products />} />
           <Route path='/contactUs' exact element={<ContactUs/>} />

@@ -10,7 +10,7 @@ const Home = () => {
         <meta charSet="utf-8" />
         <meta name="shreyas" content="Place the meta description text here." />
         <title>KK</title>
-        <link rel="canonical" href="/kk" />
+        <link rel="canonical" href="/" />
       </Helmet>
       <div>
         <Intro />

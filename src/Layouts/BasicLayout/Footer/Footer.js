@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="row">
           {/* first col */}
           <div className={`col-sm-2 col-md-2 col-lg-2 ${footer.footColOne}`}>
-            <NavLink to="/kk" onClick={() => {handleLinkClick(1); window.scrollTo(0,0)}}><img src={kkLogo} alt="brand logo" /></NavLink>
+            <NavLink to="/" onClick={() => {handleLinkClick(1); window.scrollTo(0,0)}}><img src={kkLogo} alt="brand logo" /></NavLink>
           </div>
 
        
@@ -28,7 +28,7 @@ const Footer = () => {
               <div
                 className={`col-12 col-sm-3 col-md-3 col-lg-3 ${footer.listCol}`}
               >
-                <NavLink to="/kk" onClick={() => {handleLinkClick(1); window.scrollTo(0,0)}}>
+                <NavLink to="/" onClick={() => {handleLinkClick(1); window.scrollTo(0,0)}}>
                   Home
                 </NavLink>
               </div>

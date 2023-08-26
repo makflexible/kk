@@ -43,7 +43,7 @@ const Header = () => {
           <nav
             className={`navbar navbar-expand-lg navbar-light ${styles.headerLogo}`}
           >
-            <NavLink to={"/kk"} className="navbar-brand " href="#home_section">
+            <NavLink to={"/"} className="navbar-brand " href="#home_section">
               <img src={kkLogo} alt="brand logo" />
             </NavLink>
             <button
@@ -61,7 +61,7 @@ const Header = () => {
               <ul className="navbar-nav">
                 <li className="navbar-item">
                   <NavLink
-                    to={"/kk"}
+                    to={"/"}
                     className="nav-link"
                     onClick={handleNavCollapse}
                   >
@@ -113,7 +113,7 @@ const Header = () => {
             <div
               className={`col-sm-2 col-md-2 col-lg-2 d-flex justify-content-center pe-0 ${styles.headerLogo}`}
             >
-              <NavLink to={"/kk"} onClick={() => handleLinkClick(1)}>
+              <NavLink to={"/"} onClick={() => handleLinkClick(1)}>
                 <img src={kkLogo} alt="logo" className="img-fluid" />
               </NavLink>
             </div>
@@ -121,7 +121,7 @@ const Header = () => {
               <ul className={styles.headerList}>
                 <li>
                   <NavLink
-                    to={"/kk"}
+                    to={"/"}
                     className={
                       activeLink === 1
                         ? styles.activeTitle
