@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import footer from "./Footer.module.scss";
 import kkLogo from "../../../Assets/header/kkLogo.svg";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import instagram from "../../../Assets/footer/instagram.svg";
 import whatsapp from "../../../Assets/footer/whatsapp.svg";
 import linkedin from "../../../Assets/footer/linkedin.svg";
@@ -60,7 +60,7 @@ const Footer = () => {
           <div className={`col-sm-2 col-md-2 col-lg-2 ${footer.footColThree}`}>
             <p>Follow Me On</p>
             <div className={footer.iconGroup}>
-              <img src={instagram} alt="instagram logo" />
+              <Link to="https://instagram.com/makflexiblepackagingpvtltd?igshid=MzMyNGUyNmU2YQ==" target="_blank"><img src={instagram} alt="instagram logo" /></Link>
               <img src={whatsapp} alt="whatsapp logo" />
               <img src={linkedin} alt="linkedin logo" />
             </div>

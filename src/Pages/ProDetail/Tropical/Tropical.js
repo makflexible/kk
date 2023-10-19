@@ -12,13 +12,13 @@ const Tropical = ({ images, heading, description }) => {
   const imgFour = images[3];
   const imgFive = images[4];
 
-  // const imageList = [
-  //   { image: imgOne },
-  //   { image: imgTwo },
-  //   { image: imgThree },
-  //   { image: imgFour },
-  //   {image:imgFive},
-  // ];
+  const imageList = [
+    { image: imgOne },
+    { image: imgTwo },
+    { image: imgThree },
+    { image: imgFour },
+    {image:imgFive},
+  ];
 
   const [currentSlide, setCurrentSlide] = useState(0);
 

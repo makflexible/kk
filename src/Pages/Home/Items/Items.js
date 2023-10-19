@@ -3,6 +3,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.scss";
 import itemStyle from "./itemStyle.module.scss";
+import productOne from "../../../Assets/home/productOne.png";
+import productTwo from "../../../Assets/home/productTwo.png";
 import { NavLink, useNavigate } from "react-router-dom";
 import ProductList from "../../../Utils/ProductList";
 import {LinkContext} from "../../../App";

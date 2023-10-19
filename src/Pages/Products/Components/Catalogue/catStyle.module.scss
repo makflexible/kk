@@ -1,7 +1,7 @@
 @import "../../../../mixins.module.scss";
 
 .catContainer {
-  padding: 7%;
+  padding: 2% 7% 7% 7%;
 }
 
 .listBox {
@@ -44,13 +44,43 @@
 
 .catItem {
   margin: 1.5% 0;
+  position: relative;
   @include x-center;
   cursor: pointer;
-
   img{
     height:100%;
     width:100%;
   }
+}
+
+.productOverlay {
+  position: absolute;
+  color: #fff;
+  // top: 0;
+  // left: 0;q1`
+  font-size: 20px; 
+  font-weight: 900;  
+  width: 92%;
+  height: 100%;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  text-align: center;
+}
+
+
+.productOverlay p{
+  padding-inline: 1rem;
+}
+
+.catItem:hover .productOverlay {
+  opacity: 1;
 }
 
 

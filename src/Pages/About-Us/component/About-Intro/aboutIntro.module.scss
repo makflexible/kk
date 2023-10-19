@@ -2,23 +2,29 @@
 
 .aboutIntroContainer {
   // height: 89vh;
-  background: url("../../../../Assets/home/introPic.png");
-  background: url("../../../../Assets/home/updated/homeProFive.jpg");
-
+  // background: url("../../../../Assets/home/introPic.png");
+  // background: url("../../../../Assets/home/updated/homeProFive.jpg");
+  // // background: url("../../../../Assets/home/updated/newUpdated/1.svg");
+  // position: relative;
   @include bg-center;
   @include y-center;
-  padding-top: 8%;
+  padding-top: 5%;
   padding-bottom: 5%;
   position: relative;
 
   img {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    z-index: 3;
+    // width: 100%;
+    // position: absolute;
+    // bottom: 0;
+    // z-index: 3;
+    background: url("../../../../Assets/home/introPic.png");
+    // background: url("../../../../Assets/home/updated/newUpdated/7.svg");
+    // background: url("../../../../Assets/home/updated/newUpdated/1.svg");
+    position: relative;
   }
 
   h1 {
+    padding-inline: 7%;
     margin-bottom: 1%;
     position: relative;
     z-index: 5;
@@ -47,8 +53,16 @@
   }
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(226 214 214 / 50%);
+}
 
-// mobile stying 
+
 
 @media (max-width:576px){
   .aboutIntroContainer{
