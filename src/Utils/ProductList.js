@@ -80,6 +80,15 @@ import metalizedRolls5 from "../Assets/products/updated/metalizedRolls/metallize
 import metalizedRolls6 from "../Assets/products/updated/metalizedRolls/metallizedRolls6.jpg";
 import metalizedRolls7 from "../Assets/products/updated/metalizedRolls/metallizedRolls7.jpg";
 
+import bopp1 from "../Assets/products/updated/bopp/BoppBag.jpg";
+import bopp2 from "../Assets/products/updated/bopp/BoppBag.jpg";
+import bopp3 from "../Assets/products/updated/bopp/BoppBag.jpg";
+import bopp4 from "../Assets/products/updated/bopp/BoppBag.jpg";
+import bopp5 from "../Assets/products/updated/bopp/BoppBag.jpg";
+import bopp6 from "../Assets/products/updated/bopp/BoppBag.jpg";
+import bopp7 from "../Assets/products/updated/bopp/BoppBag.jpg";
+
+
 
 // import layeredRolls1 from "../Assets/products/updated/layeredRolls/layeredRolls1.jpg";
 // import layeredRolls2 from "../Assets/products/updated/layeredRolls/layeredRolls2.jpg";
@@ -197,7 +206,7 @@ const ProductList = [
   },
 
   {
-    images: [pro61, pro62, pro63, pro64, pro65, pro65, pro62, pro63, pro64, pro61],
+    images: [bopp1,bopp2,bopp3,bopp4,bopp5,bopp6,bopp7],
     heading: "BOPP NON WOVEN BAGS/SACKS",
     description: `BOPP bags or sacks are the newest type of product branding packaging. They combine PP Woven Fabric, Rotograviour Printing Technology, and BOPP Film Engraved Cylinder. In addition to coming in a variety of densities and sizes, BOPP bags can also be personalised with branding features like logos.
     BOPP bags are a popular choice in the packaging industry due to its many features :
