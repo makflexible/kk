@@ -14,8 +14,8 @@ const Home = () => {
       </Helmet>
       <div>
         <Intro />
-        <Packaging  />
-        <Items   />
+        <Packaging />
+        <Items />
       </div>
     </>
   );

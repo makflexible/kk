@@ -40,7 +40,6 @@ function App() {
     <LinkContext.Provider value={{activeLink, handleLinkClick}}>
       <BasicLayout className="theLayout" >
         <Routes>
-
         <Route path="/" exact element={<Home />} />
           <Route path="/aboutUs" exact element={<Aboutus/>} />
           <Route path='/products' exact element={<Products />} />
