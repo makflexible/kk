@@ -1,14 +1,15 @@
 import React, { useContext } from "react";
 import footer from "./Footer.module.scss";
 import kkLogo from "../../../Assets/header/kkLogo.svg";
-import { NavLink } from "react-router-dom";
-import instagram from "../../../Assets/footer/instagram.svg";
+import { Link, NavLink } from "react-router-dom";
+import instagram from "../../../Assets/footer/insta.png";
 import whatsapp from "../../../Assets/footer/whatsapp.svg";
-import linkedin from "../../../Assets/footer/linkedin.svg";
+import linkedin from "../../../Assets/footer/linked.png";
 import {LinkContext} from "../../../App";
 
 
 const Footer = () => {
+
   const {handleLinkClick} = useContext(LinkContext);
 
   return (
@@ -60,9 +61,9 @@ const Footer = () => {
           <div className={`col-sm-2 col-md-2 col-lg-2 ${footer.footColThree}`}>
             <p>Follow Me On</p>
             <div className={footer.iconGroup}>
-              <img src={instagram} alt="instagram logo" />
-              <img src={whatsapp} alt="whatsapp logo" />
-              <img src={linkedin} alt="linkedin logo" />
+              <Link to="https://instagram.com/makflexiblepackagingpvtltd?igshid=MzMyNGUyNmU2YQ==" target="_blank"><img src={instagram} alt="instagram logo" width={50} height={50} /></Link>
+              <Link to="https://www.linkedin.com/company/k.k.color-accurates-limited/" target="_blank"><img src={linkedin} alt="linkedin logo" width={50} height={50}/></Link>
+              {/* <img src={whatsapp} alt="whatsapp logo" /> */}
             </div>
           </div>
         </div>

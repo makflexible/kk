@@ -44,7 +44,7 @@ const Packaging = () => {
       </NavLink>
 
       <img className={packaging.picOne} src={picOne} alt="the pics" />
-      <img className={packaging.picTwo} src={picTwo} alt="the pics" />
+      {/* <img className={packaging.picTwo} src={picTwo} alt="the pics" /> */}
     </div>
   );
 };

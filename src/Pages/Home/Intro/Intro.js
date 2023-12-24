@@ -126,17 +126,20 @@ const Intro = () => {
       })} */}
 
       <div className={`${introStyle.introContainer} ${introStyle.proOneStyle}`}>
+      {/* <div className={introStyle.overlay}></div> */}
         <h1>Sustainable Solutions</h1>
         <p>High-quality, compliant, and sustainable packaging</p>
       </div>
 
       <div className={`${introStyle.introContainer} ${introStyle.proTwoStyle}`}>
+      {/* <div className={introStyle.overlay}></div> */}
         <h1>Sustainable Solutions</h1>
-        <p>High-quality, compliant, and sustainable packaging</p>
+        <p>High-quality, compliant, and sustainable packaging</p> 
       </div>
 
       <div className={`${introStyle.introContainer} ${introStyle.proThreeStyle}`}>
-        <h1>Sustainable Solutions</h1>
+      {/* <div className={introStyle.overlay}></div> */}
+        <h1>Sustainable Solutions</h1> 
         <p>High-quality, compliant, and sustainable packaging</p>
       </div>
 
@@ -146,16 +149,16 @@ const Intro = () => {
       </div>
 
       <div className={`${introStyle.introContainer} ${introStyle.proFiveStyle}`}>
+      {/* <div className={introStyle.overlay}></div> */}
         <h1>Sustainable Solutions</h1>
         <p>High-quality, compliant, and sustainable packaging</p>
       </div>
 
-      <div className={`${introStyle.introContainer} ${introStyle.proSixStyle}`}>
+      {/* <div className={`${introStyle.introContainer} ${introStyle.proSixStyle}`}>
+      <div className={introStyle.overlay}></div>
         <h1>Sustainable Solutions</h1>
         <p>High-quality, compliant, and sustainable packaging</p>
-      </div> 
-
-      
+      </div>  */}
     </Slider>
   );
 };
